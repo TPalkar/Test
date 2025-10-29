@@ -137,3 +137,16 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# --------------------
+# 🐍 Added: Python Specific Files
+# --------------------
+# Bytecode files (automatically generated when running .py files)
+*.pyc
+
+# The directory where Python stores the compiled bytecode
+__pycache__/
+
+# Python virtual environment directory (crucial to ignore)
+venv/
+.venv/
